@@ -1,0 +1,185 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8ba5171d56522f1f39cbe0141c8c1223",
+    "content-hash": "e2aa827f9fef7e6e0db6c2ad16907b17",
+    "packages": [
+        {
+            "name": "pimcore/example-areabrick",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pimcore/areabrick-example.git",
+                "reference": "d76fda949348d9e87f660d54dee93622b1d7d849"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pimcore/areabrick-example/zipball/d76fda949348d9e87f660d54dee93622b1d7d849",
+                "reference": "d76fda949348d9e87f660d54dee93622b1d7d849",
+                "shasum": ""
+            },
+            "require": {
+                "pimcore/installer-areabrick": ">=1"
+            },
+            "type": "pimcore-areabrick",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "pimcore Team",
+                    "email": "info@pimcore.com",
+                    "homepage": "http://www.pimcore.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An example area brick",
+            "homepage": "http://www.pimcore.org/",
+            "keywords": [
+                "area brick",
+                "example",
+                "pimcore"
+            ],
+            "time": "2014-08-04 08:49:05"
+        },
+        {
+            "name": "pimcore/example-plugin",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pimcore/plugin-example.git",
+                "reference": "d12d99124b7bf433f1f3b6f133d8bc77ae669f44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pimcore/plugin-example/zipball/d12d99124b7bf433f1f3b6f133d8bc77ae669f44",
+                "reference": "d12d99124b7bf433f1f3b6f133d8bc77ae669f44",
+                "shasum": ""
+            },
+            "require": {
+                "pimcore/installer-plugin": ">=1"
+            },
+            "type": "pimcore-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "pimcore Team",
+                    "email": "info@pimcore.com",
+                    "homepage": "http://www.pimcore.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An example plugin",
+            "homepage": "http://www.pimcore.org/",
+            "keywords": [
+                "example",
+                "pimcore",
+                "plugin"
+            ],
+            "time": "2014-08-04 08:31:43"
+        },
+        {
+            "name": "pimcore/installer-areabrick",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pimcore/composer-installer-areabrick.git",
+                "reference": "b7673cf99e4114f7b3590edf556cd9e35dd14302"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pimcore/composer-installer-areabrick/zipball/b7673cf99e4114f7b3590edf556cd9e35dd14302",
+                "reference": "b7673cf99e4114f7b3590edf556cd9e35dd14302",
+                "shasum": ""
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Pimcore\\Composer\\AreabrickInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimcore\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "pimcore Team",
+                    "email": "info@pimcore.com",
+                    "homepage": "http://www.pimcore.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A custom composer installer for pimcore - area bricks",
+            "homepage": "http://www.pimcore.org/",
+            "keywords": [
+                "area brick",
+                "installer",
+                "pimcore"
+            ],
+            "time": "2014-08-04 10:32:34"
+        },
+        {
+            "name": "pimcore/installer-plugin",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pimcore/composer-installer-plugin.git",
+                "reference": "4e9219a389a422dedc7ad4670224983061a6ebbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pimcore/composer-installer-plugin/zipball/4e9219a389a422dedc7ad4670224983061a6ebbb",
+                "reference": "4e9219a389a422dedc7ad4670224983061a6ebbb",
+                "shasum": ""
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Pimcore\\Composer\\PluginInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimcore\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "pimcore Team",
+                    "email": "info@pimcore.com",
+                    "homepage": "http://www.pimcore.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A custom composer installer for pimcore - plugins",
+            "homepage": "http://www.pimcore.org/",
+            "keywords": [
+                "installer",
+                "pimcore",
+                "plugin"
+            ],
+            "time": "2014-08-04 10:32:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

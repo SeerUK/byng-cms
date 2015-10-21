@@ -1,0 +1,17 @@
+{
+    "name": "seeruk/byng-cms",
+    "description": "Byng website, built in Pimcore.",
+    "authors": [
+        {
+            "name": "Elliot Wright",
+            "email": "wright.elliot@gmail.com"
+        }
+    ],
+    "config": {
+        "document-root-path": "./web"
+    },
+    "require": {
+        "pimcore/example-areabrick": ">=1",
+        "pimcore/example-plugin": ">=1"
+    }
+}

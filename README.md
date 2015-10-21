@@ -1,2 +1,3 @@
-# byng-co-v2
+# Byng CMS
+
 Byng website, built in Pimcore.
