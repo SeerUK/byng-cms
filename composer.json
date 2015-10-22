@@ -7,8 +7,14 @@
             "email": "elliot@elliotwright.co"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Byng\\": "src/Byng/"
+        }
+    },
     "config": {
-        "document-root-path": "./web"
+        "document-root-path": "./web",
+        "vendor-dir": "./web/vendor"
     },
     "require": {
         "pimcore/example-areabrick": ">=1",
@@ -19,11 +25,13 @@
     "scripts": {
         "post-install-cmd": [
             "SeerUK\\Composer\\PimcoreInstaller::install",
+            "SeerUK\\Composer\\PimcoreInstaller::installIndex",
             "SeerUK\\Composer\\PimcoreInstaller::installPlugins",
             "SeerUK\\Composer\\PimcoreInstaller::installWebsite"
         ],
         "post-update-cmd": [
             "SeerUK\\Composer\\PimcoreInstaller::install",
+            "SeerUK\\Composer\\PimcoreInstaller::installIndex",
             "SeerUK\\Composer\\PimcoreInstaller::installPlugins",
             "SeerUK\\Composer\\PimcoreInstaller::installWebsite"
         ]
