@@ -4,7 +4,7 @@
     "authors": [
         {
             "name": "Elliot Wright",
-            "email": "wright.elliot@gmail.com"
+            "email": "elliot@elliotwright.co"
         }
     ],
     "config": {
@@ -13,11 +13,15 @@
     "require": {
         "pimcore/example-areabrick": ">=1",
         "pimcore/example-plugin": ">=1",
-        "pimcore/pimcore": "3.1.1"
+        "pimcore/pimcore": "3.1.1",
+        "seeruk/pimcore-composer-copier": "^1.0"
     },
     "scripts": {
         "post-install-cmd": [
-            "cp -r ./vendor/pimcore/pimcore/pimcore/ ./web/pimcore/"
+            "SeerUK\\Composer\\PimcoreCopier::installPimcore"
+        ],
+        "post-update-cmd": [
+            "SeerUK\\Composer\\PimcoreCopier::installPimcore"
         ]
     }
 }
