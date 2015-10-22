@@ -7,14 +7,8 @@
             "email": "elliot@elliotwright.co"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Byng\\": "src/Byng/"
-        }
-    },
     "config": {
-        "document-root-path": "./web",
-        "vendor-dir": "./web/vendor"
+        "document-root-path": "./web"
     },
     "require": {
         "pimcore/example-areabrick": ">=1",
