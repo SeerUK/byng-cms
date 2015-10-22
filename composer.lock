@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4f58a8ae9735365df208c8f66621fa33",
+    "hash": "675583b337cefca6a00ee0864114869e",
     "content-hash": "13162e153a56b58417839d5ef03f59b0",
     "packages": [
         {
@@ -222,16 +222,16 @@
         },
         {
             "name": "seeruk/pimcore-composer-installer",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SeerUK/pimcore-composer-installer.git",
-                "reference": "eee8331d55dc688ad00acedbb6e125d23eb08a80"
+                "reference": "9dcd39cf4545d5ab2791e4f837ef47c14278ca4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SeerUK/pimcore-composer-installer/zipball/eee8331d55dc688ad00acedbb6e125d23eb08a80",
-                "reference": "eee8331d55dc688ad00acedbb6e125d23eb08a80",
+                "url": "https://api.github.com/repos/SeerUK/pimcore-composer-installer/zipball/9dcd39cf4545d5ab2791e4f837ef47c14278ca4a",
+                "reference": "9dcd39cf4545d5ab2791e4f837ef47c14278ca4a",
                 "shasum": ""
             },
             "type": "library",
@@ -253,7 +253,7 @@
                     "email": "elliot@elliotwright.co"
                 }
             ],
-            "time": "2015-10-22 22:44:12"
+            "time": "2015-10-22 23:12:42"
         }
     ],
     "packages-dev": [],
