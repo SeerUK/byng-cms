@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ec8023a445f5856a5cc0cf16a80171ae",
-    "content-hash": "55a8faac2e526dbb7be546f98921700e",
+    "hash": "28f8aab641ccf61a25b1de84ab69b5c9",
+    "content-hash": "13162e153a56b58417839d5ef03f59b0",
     "packages": [
         {
             "name": "pimcore/example-areabrick",
@@ -221,22 +221,22 @@
             "time": "2015-09-16 13:59:03"
         },
         {
-            "name": "seeruk/pimcore-composer-copier",
-            "version": "v1.0.1",
+            "name": "seeruk/pimcore-composer-installer",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/SeerUK/pimcore-composer-copier.git",
-                "reference": "4aa30243c9344fe651d048ebaa805c283b49e379"
+                "url": "https://github.com/SeerUK/pimcore-composer-installer.git",
+                "reference": "60ac5ac39789c7c6d837ade1a13b2f767d359dca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SeerUK/pimcore-composer-copier/zipball/4aa30243c9344fe651d048ebaa805c283b49e379",
-                "reference": "4aa30243c9344fe651d048ebaa805c283b49e379",
+                "url": "https://api.github.com/repos/SeerUK/pimcore-composer-installer/zipball/60ac5ac39789c7c6d837ade1a13b2f767d359dca",
+                "reference": "60ac5ac39789c7c6d837ade1a13b2f767d359dca",
                 "shasum": ""
             },
             "type": "library",
             "extra": {
-                "class": "SeerUK\\Composer\\PimcoreCopier"
+                "class": "SeerUK\\Composer\\PimcoreInstaller"
             },
             "autoload": {
                 "psr-4": {
@@ -253,7 +253,7 @@
                     "email": "elliot@elliotwright.co"
                 }
             ],
-            "time": "2015-10-22 11:49:17"
+            "time": "2015-10-22 21:36:07"
         }
     ],
     "packages-dev": [],

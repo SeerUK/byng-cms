@@ -14,14 +14,18 @@
         "pimcore/example-areabrick": ">=1",
         "pimcore/example-plugin": ">=1",
         "pimcore/pimcore": "3.1.1",
-        "seeruk/pimcore-composer-copier": "^1.0"
+        "seeruk/pimcore-composer-installer": "^1.0"
     },
     "scripts": {
         "post-install-cmd": [
-            "SeerUK\\Composer\\PimcoreCopier::installPimcore"
+            "SeerUK\\Composer\\PimcoreInstaller::install",
+            "SeerUK\\Composer\\PimcoreInstaller::installPlugins",
+            "SeerUK\\Composer\\PimcoreInstaller::installWebsite"
         ],
         "post-update-cmd": [
-            "SeerUK\\Composer\\PimcoreCopier::installPimcore"
+            "SeerUK\\Composer\\PimcoreInstaller::install",
+            "SeerUK\\Composer\\PimcoreInstaller::installPlugins",
+            "SeerUK\\Composer\\PimcoreInstaller::installWebsite"
         ]
     }
 }
