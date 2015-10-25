@@ -1,0 +1,13 @@
+{
+  "name": "byng-cms",
+  "description": "Byng website, built in Pimcore.",
+  "main": "gulpfile.js",
+  "author": "Elliot Wright <elliot@elliotwright.co>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeerUK/byng-cms.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
